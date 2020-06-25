@@ -70,6 +70,26 @@ touch index.html
 touch index.ts index.css
 ```
 
+## cat
+
+This prints content of a file.
+
+```bash
+cat index.ts
+```
+
+## head/tail
+
+If file is too large and we only want to see part of that file, head and tail are your friends.
+
+```bash
+# Print first 10 lines of index.ts
+head index.ts
+
+# Watch and print 100 last lines of /var/log/auth.log
+tail -f /var/log/auth.log -n 100
+```
+
 ## cp (copy)
 
 This copies files or directories to another directory
